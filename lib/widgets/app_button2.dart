@@ -30,6 +30,22 @@ class AppButtonBig extends StatelessWidget {
     return Container(
       width: width,
       height: height,
+      decoration: BoxDecoration(
+        boxShadow: [
+          BoxShadow(
+            color: Colors.grey.withOpacity(0.5),
+            spreadRadius: 2,
+            blurRadius: 3,
+            offset: Offset(3.0, 3.0),
+          ),
+        ],
+        color: backgroundColor,
+        borderRadius: BorderRadius.circular(value),
+        border: Border.all(
+          color: borderColor,
+          width: 1.0,
+        ),
+      ),
       child: Center(
         child: isIcon == false
             ? Text(

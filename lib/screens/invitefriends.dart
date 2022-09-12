@@ -46,7 +46,7 @@ class _InviteFriendsState extends State<InviteFriends> {
                           text: "",
                           size: 40,
                           isIcon: true,
-                          icon: Icons.arrow_forward,
+                          icon: Icons.call_made_outlined,
                         ),
                       ],
                     ),

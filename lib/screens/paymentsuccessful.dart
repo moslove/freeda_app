@@ -47,7 +47,7 @@ class _PaymentSuccessfulState extends State<PaymentSuccessful> {
                           text: "",
                           size: 40,
                           isIcon: true,
-                          icon: Icons.arrow_forward,
+                          icon: Icons.call_made_outlined,
                         ),
                       ],
                     ),
