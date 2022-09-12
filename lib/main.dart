@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:freeda_app/screens/verifycode-fiil.dart';
-
+import 'package:freeda_app/screens/recipients.dart';
 void main () {
   runApp(MyApp());
 }
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: VerifyCodeFill(),
+      home: Recipients(),
     );
   }
 }
